@@ -18,7 +18,10 @@ $font: 'Kumbh Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-color: $dark_cyan;
+    background-position: -300px -480px, 710px 370px;
+    background-repeat: no-repeat;
 
     .card {
         width: 350px;

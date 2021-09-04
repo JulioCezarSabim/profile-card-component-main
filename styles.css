@@ -17,7 +17,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
   background-color: #19a2ae;
+  background-position: -300px -480px, 710px 370px;
+  background-repeat: no-repeat;
 }
 
 .main-container .card {
