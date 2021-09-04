@@ -67,18 +67,17 @@ $font: 'Kumbh Sans', sans-serif;
                 font-size: 18px;
                 margin: 0 0 8px 0;
 
+                h1 {
+                    color: $very_dark_desaturated_blue;
+                    font-weight: 700;
+                    margin: 0 7px 0 0;
+                    font-size: 18px;
+                    display: inline-block;
+                } // h1
+
                 span {
-
-                    &:nth-child(1) {
-                        color: $very_dark_desaturated_blue;
-                        font-weight: 700;
-                        margin: 0 7px 0 0;
-                    } // span:nth-child(1)
-
-                    &:nth-child(2) {
-                        font-weight: 400;
-                        color: $dark_grayish_blue;
-                    } // span:nth-child(2)
+                    font-weight: 400;
+                    color: $dark_grayish_blue;
                 } // span
             } // .name-age
 

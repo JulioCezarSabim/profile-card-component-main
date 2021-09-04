@@ -76,13 +76,15 @@
   margin: 0 0 8px 0;
 }
 
-.main-container .card .user_info-container .name-age span:nth-child(1) {
+.main-container .card .user_info-container .name-age h1 {
   color: #2d3248;
   font-weight: 700;
   margin: 0 7px 0 0;
+  font-size: 18px;
+  display: inline-block;
 }
 
-.main-container .card .user_info-container .name-age span:nth-child(2) {
+.main-container .card .user_info-container .name-age span {
   font-weight: 400;
   color: #6a6f81;
 }
