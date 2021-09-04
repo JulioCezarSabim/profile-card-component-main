@@ -19,7 +19,7 @@
           align-items: center;
   background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
   background-color: #19a2ae;
-  background-position: -300px -480px, 710px 370px;
+  background-position: right 51vw bottom 40vh, left 48vw top 50vh;
   background-repeat: no-repeat;
 }
 
